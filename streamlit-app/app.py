@@ -16,7 +16,8 @@ from src.utils import EntityNotFoundError
 from src.utils import get_reports_mapping
 from src.utils import list_periods
 
-PROJECTS_DIR: Path = Path("./projects")
+PROJECTS_DIR: Path = Path(__file__).parent / "projects"
+
 REPORTS_DIR_NAME: Text = "reports"
 
 
